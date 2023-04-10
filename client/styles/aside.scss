@@ -42,3 +42,8 @@
     }
   }
 }
+@media (min-width: 960px)  {
+  .VPNavBar.has-sidebar .title {
+    background-color: var(--vp-sidebar-bg-color);
+  }
+}
