@@ -105,7 +105,11 @@ watchPostEffect(async () => {
     /* margin-right: -32px; */
     /* margin-left: -32px; */
     height: var(--vp-nav-height);
-    /* background-color: var(--vp-sidebar-bg-color);
+    /* background-color: var(--vp-sidebar-bg-color); */
+  }
+  .el-scrollbar .vp-sidebar {
+    height: calc(100% - 64px);
+    top: 64px;
   }
 }
 .vp-sidebar-nav {
